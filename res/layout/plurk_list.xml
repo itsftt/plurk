@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="5dip"
+	>
+	<WebView android:id="@+id/avatar"
+		android:src="@drawable/avatar"
+		android:layout_height="48px"
+		android:layout_width="48px"
+		android:gravity="center"
+		android:layout_margin="3px"
+		android:layout_alignParentLeft="true" />
+	/>
+	<WebView android:id="@+id/content"
+		android:text="test test asdfasf jasodfjaos pjfsakf joasfj oisafj iaosdj fioasdjf ioaspj fioasdj iaosjd iosjdfi onhisag nuiasn iasdfnis qpoweijqiowepjqiowejqwiopejqwiopdjqwiopdjqioadj jioasj fioasjdf ajsdiaisj sadflk" 
+		android:textColor="#fff"
+		android:textSize="20sp"
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@id/avatar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+	<TextView android:id="@+id/time"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/content"
+		android:layout_toRightOf="@id/avatar"
+		android:textColor="#f00"
+		android:text="Sep 05, 2010 - 05:58PM"
+		/>
+	<TextView android:id="@+id/responses"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/content"
+		android:layout_alignParentRight="true"
+		android:textColor="#00f"
+		android:text="1"
+		/>
+</RelativeLayout>

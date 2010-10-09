@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="qualifier">
+		<item>:</item>
+		<item>loves</item>
+		<item>likes</item>
+		<item>shares</item>
+		<item>gives</item>
+		<item>hates</item>
+		<item>wants</item>
+		<item>wishes</item>
+		<item>needs</item>
+		<item>will</item>
+		<item>hopes</item>
+		<item>asks</item>
+		<item>has</item>
+		<item>was</item>
+		<item>wonders</item>
+		<item>feels</item>
+		<item>thinks</item>
+		<item>says</item>
+		<item>is</item>
+	</string-array>
+
+</resources>
